@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    font: normal 1em Arial;
+}
+
+body {
+    background-color: rgb(146, 179, 240);
+}
+header {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    font-weight: 900;
+}
+section {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.474);
+}
+.form {
+    padding: 15px;
+    line-height: 2em;
+}
+#res {
+    text-align: center;
+}
+.img {
+    height: 200px;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    font-size: .9em;
+    font-style: italic;
+}
