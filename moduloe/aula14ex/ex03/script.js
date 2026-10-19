@@ -11,7 +11,7 @@ function calcular() {
     img.setAttribute('src', 'hand.png')
     img.style.width ='20px'
     img.style.verticalAlign ='middle'
-
+    
     if (inicio.value == '' || fim.value == '' || Number(fim.value < 1) || passo.value == ''){
         window.alert('Você não digitou corretamente, tente novamente!')
     }else{
@@ -20,5 +20,8 @@ function calcular() {
         res.appendChild(img)
         res.innerHTML += ` `
     }}
+    img.setAttribute('id', 'flag')
+    img.setAttribute('src', 'flag.png')
+    res.appendChild(img)
 }
 

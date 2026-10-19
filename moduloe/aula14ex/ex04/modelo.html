@@ -8,14 +8,19 @@
 </head>
 <body onload="carregar()">
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div id="msg">
-            Testando...
+        <div id="insercao">
+            <p><label for="txtnb">Número:</label> <input type="number" name="txtnb" id="txtnb">
+            <input type="button" value="Gerar Tabuada" onclick="calcular()"></p>
         </div>
-        <div id="foto">
-            <img id="img" src="imagens/manha.png" alt="manhã">
+        <div id="tabuada">
+          <p id="teste">
+            <select name="tab" id="tab">
+                <option value="teste">Digite um número acima</option>
+            </select>
+          </p>
         </div>
     </section>
     <footer>

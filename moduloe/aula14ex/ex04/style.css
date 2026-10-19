@@ -21,12 +21,10 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: .8em;
 }
-#msg{
-    text-align: center;
-    padding: 20px 0px;
-}
+
 div {
-    text-align: center;
-    padding: 8px;
+    text-align: left;
+
 }
